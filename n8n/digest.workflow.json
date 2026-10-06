@@ -63,7 +63,7 @@
       "id": "b058c41c-40ba-48ba-9a97-ef1a886c49d0",
       "name": "HTTP Request (digest)",
       "retryOnFail": true,
-      "waitBetweenTries": 4500,
+      "waitBetweenTries": 45000,
       "credentials": {
         "httpHeaderAuth": {
           "id": "x0A8cvAXKlbYfBCL",
@@ -190,16 +190,7 @@
       ]
     }
   },
-  "pinData": {
-    "When Executed by Another Workflow": [
-      {
-        "case_id": "gr-213948",
-        "queue_page_id": "3f189c92-87b2-802d-83f4-d13837fe9958"
-      }
-    ]
-  },
   "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "17b9783f5169ea2f5f8a8524ffdef78a9df71f7f3e5fe05ad265050b13b304e1"
+    "templateCredsSetupCompleted": true
   }
 }
